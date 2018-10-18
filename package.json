@@ -1,0 +1,26 @@
+{
+    "name": "vscode-language-steam-vgui",
+    "displayName": "vscode-language-steam-vgui",
+    "description": "Syntax for Steam's VGUI language",
+    "version": "0.0.1",
+    "publisher": "pddstudio",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vgui",
+            "aliases": ["Steam VGUI", "vgui"],
+            "extensions": [".res",".layout"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vgui",
+            "scopeName": "source.steam-vgui",
+            "path": "./syntaxes/vgui.tmLanguage.json"
+        }]
+    }
+}
