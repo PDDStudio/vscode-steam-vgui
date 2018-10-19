@@ -3,3 +3,4 @@ node_modules
 vsc-extension-quickstart.md
 .DS_Store
 *.log
+.local/**
