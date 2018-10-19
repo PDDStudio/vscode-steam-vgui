@@ -3,6 +3,7 @@
     "displayName": "vscode-steam-vgui",
     "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
     "version": "0.0.1",
+    "license": "MIT",
     "publisher": "pddstudio",
     "author": {
       "name": "Patrick Jung",
