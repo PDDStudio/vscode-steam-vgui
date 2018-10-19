@@ -2,7 +2,7 @@
     "name": "vscode-steam-vgui",
     "displayName": "VGUI Syntax Highlighting & Code Snippets",
     "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
-    "icon": "./assets/extension-icon.png",
+    "icon": "assets/extension-icon.png",
     "galleryBanner": {
       "color": "#2d323b",
       "theme": "dark"
@@ -21,6 +21,16 @@
     "bugs": {
       "url": "https://github.com/pddstudio/vscode-steam-vgui/issues"
     },
+    "scripts": {
+      "build": "echo 'No building required!'",
+      "preci:package": "mkdir -p ./dist",
+      "ci:package": "vsce package --yarn -o dist/extension-steam-vgui.vsix",
+      "ci:publish": "vsce publish --yarn -p ${CI_VSCE_ACCESS_TOKEN} --packagePathn dist/extension-steam-vgui.vsix",
+      "publish": "vsce publish --yarn",
+      "clean": "rm -rf ./dist"
+    },
+    "dependencies": {},
+    "devDependencies": {},
     "engines": {
         "vscode": "^1.28.0"
     },
