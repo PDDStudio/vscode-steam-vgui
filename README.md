@@ -2,6 +2,8 @@
 
 > Syntax Highlighting & Code Snippets for Steam's [VGUI DSL](https://developer.valvesoftware.com/wiki/VGUI_Editing).
 
+[![Build Status](https://travis-ci.org/PDDStudio/vscode-steam-vgui.svg?branch=develop)](https://travis-ci.org/PDDStudio/vscode-steam-vgui)
+
 ## Introduction
 
 This extension is a port of the [language-steam-vgui](https://github.com/StaticRocket/language-steam-vgui) extension for [Atom](https://atom.io) with some adjustments.
