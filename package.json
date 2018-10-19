@@ -1,8 +1,14 @@
 {
     "name": "vscode-steam-vgui",
-    "displayName": "vscode-steam-vgui",
+    "displayName": "VGUI Syntax Highlighting & Code Snippets",
     "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
+    "icon": "./assets/extension-icon.png",
+    "galleryBanner": {
+      "color": "#2d323b",
+      "theme": "dark"
+    },
     "version": "0.0.1",
+    "license": "MIT",
     "publisher": "pddstudio",
     "author": {
       "name": "Patrick Jung",
@@ -19,7 +25,8 @@
         "vscode": "^1.28.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
@@ -32,6 +39,12 @@
             "language": "vgui",
             "scopeName": "source.steam-vgui",
             "path": "./syntaxes/vgui.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+          {
+            "language": "vsgui",
+            "path": "./snippets/vgui.json"
+          }
+        ]
     }
 }

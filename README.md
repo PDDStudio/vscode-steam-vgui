@@ -25,6 +25,10 @@ To make a skin for Steam (post 2010 UI update), you need to take a copy of resou
 None yet. You can checkout the issue section of this repository. 
 Please report any bug or 
 
+## Special Thanks
+
+The extension icon uses resources from [mbtskoudsalg](https://mbtskoudsalg.com/explore/steam-icon-png/#1).
+
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
