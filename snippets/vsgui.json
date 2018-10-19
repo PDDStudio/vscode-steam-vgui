@@ -1,0 +1,10 @@
+[
+  {
+    "prefix": "vgui-new-control",
+    "description": "Creates a new VGUI Control Component.",
+    "types": "vsgui",
+    "body": [
+      "# TODO"
+    ]
+  }
+]
