@@ -1,0 +1,49 @@
+language: node_js
+node_js:
+  - "10"
+dist: trusty
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+stages:
+  - test
+  - package
+  - name: deploy
+    if: branch = develop
+
+addons:
+  apt:
+    update: true
+    sources:
+      - sourceline: 'deb https://dl.yarnpkg.com/debian/ stable main'
+        key_url: 'https://dl.yarnpkg.com/debian/pubkey.gpg'
+    packages: yarn
+
+install:
+- yarn
+
+before_script:
+- yarn global add vsce
+
+jobs:
+  include:
+    - stage: test
+      script: yarn ci:test
+    - stage: package
+      script: yarn ci:package
+    - stage: deploy
+      provider: script
+      script: yarn ci:publish
+      on:
+        branch: develop
+
+notifications:
+  email: false
+  slack:
+    rooms:
+      - 'slack: pddstudio:VcFiW1hwvEHqbCwtBKA38Eh2'
+    on_success: change
+    on_failure: always
