@@ -1,9 +1,20 @@
 {
-    "name": "vscode-language-steam-vgui",
-    "displayName": "vscode-language-steam-vgui",
-    "description": "Syntax for Steam's VGUI language",
+    "name": "vscode-steam-vgui",
+    "displayName": "vscode-steam-vgui",
+    "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
     "version": "0.0.1",
     "publisher": "pddstudio",
+    "author": {
+      "name": "Patrick Jung",
+      "email": "patrick.pddstudio@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pddstudio/vscode-steam-vgui"
+    },
+    "bugs": {
+      "url": "https://github.com/pddstudio/vscode-steam-vgui/issues"
+    },
     "engines": {
         "vscode": "^1.28.0"
     },

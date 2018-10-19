@@ -1,65 +1,34 @@
-# vscode-language-steam-vgui README
+# Steam VGUI Syntax & Code Snippets
 
-This is the README for your extension "vscode-language-steam-vgui". After writing up a brief description, we recommend including the following sections.
+> Syntax Highlighting & Code Snippets for Steam's [VGUI DSL](https://developer.valvesoftware.com/wiki/VGUI_Editing).
+
+## Introduction
+
+This extension is a port of the [language-steam-vgui](https://github.com/StaticRocket/language-steam-vgui) extension for [Atom](https://atom.io) with some adjustments.
+
+## Ingormation About VGUI Editing
+
+The following excerpt is taken from [Valve's Developer Documentation](https://developer.valvesoftware.com/wiki/VGUI_Editing#Styles):
+
+> **Note:**  
+> The information below is extracted from the Valve internal document on how to edit, so it may in some cases be wrong or reference tools that don't exist.
+
+To make a skin for Steam (post 2010 UI update), you need to take a copy of resource/styles/steam.styles file and copy it to skins/<your skin name here>/resource/styles/steam.styes. The existence of that file will make Steam put that skin as an option in the settings->interface dialog (Steam will need to be restarted for it to show). From there you can start editing. You can put new files or existing steam files you want to replace under your skins folder. Good luck!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- Syntax Highlighting for `.layout`, `.res` files
+- _(Coming soon)_ Code Snippets for creating new GUI controls
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None yet. You can checkout the issue section of this repository. 
+Please report any bug or 
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of `vscode-steam-vgui`
