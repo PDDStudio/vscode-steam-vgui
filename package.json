@@ -31,9 +31,9 @@
     "contributes": {
         "languages": [{
             "id": "vgui",
-            "aliases": ["Steam VGUI", "vgui"],
-            "extensions": [".res",".layout"],
-            "configuration": "./language-configuration.json"
+            "aliases": ["Steam VGUI", "VGUI", "vgui"],
+            "extensions": [".res",".layout", ".styles"],
+            "configuration": "./vgui.configuration.json"
         }],
         "grammars": [{
             "language": "vgui",
