@@ -2,6 +2,11 @@
     "name": "vscode-steam-vgui",
     "displayName": "VGUI Syntax Highlighting & Code Snippets",
     "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
+    "icon": "./assets/extension-icon.png",
+    "galleryBanner": {
+      "color": "#2d323b",
+      "theme": "dark"
+    },
     "version": "0.0.1",
     "license": "MIT",
     "publisher": "pddstudio",
