@@ -19,7 +19,8 @@
         "vscode": "^1.28.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
@@ -32,6 +33,12 @@
             "language": "vgui",
             "scopeName": "source.steam-vgui",
             "path": "./syntaxes/vgui.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+          {
+            "language": "vsgui",
+            "path": "./snippets/vgui.json"
+          }
+        ]
     }
 }
