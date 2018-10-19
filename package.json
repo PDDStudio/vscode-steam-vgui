@@ -1,6 +1,6 @@
 {
     "name": "vscode-steam-vgui",
-    "displayName": "vscode-steam-vgui",
+    "displayName": "VGUI Syntax Highlighting & Code Snippets",
     "description": "Syntax Highlighting and Code Snippets for VGUI (Steam's Client DSL)",
     "version": "0.0.1",
     "license": "MIT",
