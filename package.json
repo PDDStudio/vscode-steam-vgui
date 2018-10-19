@@ -25,6 +25,7 @@
       "build": "echo 'No building required!'",
       "preci:package": "mkdir -p ./dist",
       "ci:package": "vsce package --yarn -o dist/extension-steam-vgui.vsix",
+      "ci:test": "echo 'No tests provided!'",
       "ci:publish": "vsce publish --yarn -p ${CI_VSCE_ACCESS_TOKEN} --packagePathn dist/extension-steam-vgui.vsix",
       "publish": "vsce publish --yarn",
       "clean": "rm -rf ./dist"
