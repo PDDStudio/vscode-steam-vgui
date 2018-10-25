@@ -2,7 +2,7 @@
 
 > Syntax Highlighting & Code Snippets for Steam's [VGUI DSL](https://developer.valvesoftware.com/wiki/VGUI_Editing).
 
-[![Build Status](https://travis-ci.org/PDDStudio/vscode-steam-vgui.svg?branch=develop)](https://travis-ci.org/PDDStudio/vscode-steam-vgui)
+[![Build Status](https://travis-ci.org/PDDStudio/vscode-steam-vgui.svg?branch=develop)](https://travis-ci.org/PDDStudio/vscode-steam-vgui) [![Greenkeeper badge](https://badges.greenkeeper.io/PDDStudio/vscode-steam-vgui.svg)](https://greenkeeper.io/)
 
 ## Introduction
 
